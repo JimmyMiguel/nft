@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: var(--bgcolor);
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+}
+
+:root {
+  --bgcolor: hsl(217, 54%, 11%);
+  --bgc-card: hsl(216, 50%, 16%);
+}
+/* DESTOK  */
+
+.nft {
+  background-color: var(--bgc-card);
+  width: 320px;
+  height: 550px;
+  margin: auto;
+  border-radius: 10px;
+  position: relative;
+  color: white;
+}
+.nft__imagen--equilibrium {
+  display: block;
+  margin: 20px auto 30px auto;
+  width: 270px;
+  border-radius: 10px;
+  position: relative;
+}
+/* HOVER */
+.box {
+  width: 270px;
+  height: 270px;
+  border-radius: 10px;
+  position: absolute;
+  background-color: hsla(178, 100%, 50%, 0.5);
+  bottom: 260px;
+  left: 24px;
+}
+.box-icon {
+  display: block;
+  position: absolute;
+  width: 41px;
+  bottom: 373px;
+  left: 141px;
+}
+
+.effect {
+  opacity: 0;
+}
+.effect:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+/* HOVER */
+
+.nft__equilibruium {
+  display: block;
+  font-weight: 600;
+  margin: 20px auto 20px auto;
+  width: 270px;
+  font-size: 20px;
+}
+/* HOVER */
+.nft__equilibruium:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+/* HOVER */
+.nft__parraf {
+  display: block;
+  font-weight: 300;
+  margin: 20px auto 10px auto;
+  width: 270px;
+  font-size: 15px;
+  color: hsl(215, 51%, 70%);
+}
+/*  class eth */
+.nft__eth {
+  position: relative;
+  font-weight: 300;
+  margin: 20px auto 13px auto;
+  width: 270px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.icon-eth {
+  position: absolute;
+  width: 12px;
+}
+
+.nft__valor {
+  position: absolute;
+  left: 20px;
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+.nft-time {
+  position: absolute;
+  left: 177px;
+}
+.nft__days {
+  position: absolute;
+  left: 200px;
+  color: hsl(215, 51%, 70%);
+}
+.linea {
+  width: 270px;
+  border-top: hsl(215, 51%, 70%) solid 0.01px;
+  margin: 0 auto 20px auto;
+}
+/* perfil */
+.ntf__perfil {
+  position: relative;
+  width: 200px;
+  height: 20px;
+}
+.nft__perfil__imagen {
+  width: 30px;
+  outline: 0.5px solid white;
+  border-radius: 50px;
+  position: absolute;
+  display: block;
+  left: 27px;
+}
+.nft__name {
+  position: absolute;
+  left: 77px;
+  font-weight: 300;
+  font-size: 15px;
+  bottom: 40px;
+}
+.nft__name:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+span {
+  color: hsl(215, 51%, 70%);
+}
